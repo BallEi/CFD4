@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <title>Luxstate</title>
 
     <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
@@ -14,261 +16,339 @@
     <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
 </head>
 <body>
-<header>
-        <div class="container">
-
-            <div class="logo">
-                <a href="./"><img src="img/Logo-lux.png" alt="logo"></a>
-            </div>
-
-            <ul class="menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Appartments</a></li>
-                <li><a href="#">How It Work</a></li>
-                <li><a href="#">Agents</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-
-            <div class="cta">
-                <a href="#" class="btn-join">Join Us</a>
-                <a href="#" class="btn-started">Getting Started</a>
-            </div>
-
-        </div>
+<header class="header">
+    <div class="container">
+      <div class="header-top">
+              <a href="#!">
+                  <img src="./img/Logo-lux.png" alt="logo">
+              </a>
+              <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-link yellow">About</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Appartments</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">How It Work</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Agents</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Contact Us</a></li>
+              </ul>
+              <div class="cta">
+                  <a href="#" class="btn-join">Join Us</a>
+                  <a href="#" class="btn-started">Getting Started</a>
+              </div>
+          </div>
+      </div>
 </header>
-<main>
-    <!-- Our's Company Statistics -->
-    <section class="Our-company">
+<main class="main">
+    <!-- BANNER -->
+    <section class="banner">
         <div class="container">
-            <div class="our-company-right">
-                <h2 class="title">Our’s Company Statistics</h2>
-                <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence. </p>
-                <p>We need to get all stakeholders up to speed and in the right place hard stop, or technologically savvy or pre launch. Pro-sumer software commitment to the cause offline this discussion and wiggle room blue sky. Beef up teams were able to drive adoption and awareness. Screw the pooch killing it. </p>
+            <div class="banner__content">
+                <h1 class="main-title">
+                    Find Your New </br>Modern Apartment 
+                </h1>
+                    <form action="#" class="banner__search">
+                        <input type="text" placeholder=" Search locations">
+                        <button type="submit" class="banner_saerch-btn">Search</button>
+                    </form>
             </div>
-            <div class="our-company-left">
-                <div class="infor">
+            <div class="banner__scrolldown">
+                <span>Scroll Down</span>
+                <i><img src="img/incon-banner.png" alt=""></i>
+            </div>  
+            <div class="banner__locations">
+                <a href="tel(000) 123-4567" class="banner__locations-item">
+                    <i><img src="./img/icont-phone.png" alt="phone"></i>
+                    <span>(000) 123-4567</span>
+                </a>
+                <a href="" class="banner__locations-item" target="_blank" > 
+                    <i><img src="./img/locations.png" alt="phone"></i>
+                    <span>Melbourne,Australia</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- COMPANY -->
+    <section class="company">
+        <div class="container">
+        <div class="company-box">
+            <div class="des-company">
+                <h2 class="title-cpn">Our’s Company <br/> Statistics</h2>
+                <p class="content-cpn">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod,
+                     cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence. 
+                </p>
+                <p class="content-cpn ct">We need to get all stakeholders up to speed and in the right place hard stop,
+                     or technologically savvy or pre launch. Pro-sumer software commitment to the cause offline this discussion and wiggle room blue sky. Beef up teams were able to drive adoption and awareness. Screw the pooch killing it. </p>
+            </div>
+            <div class="box-company">
+                <div class="box">
                     <span class="number">748</span>
-                    <p class="word">Appartments</p>
+                    <div class="text">Appartments</div>
                 </div>
-                <div class="infor">
-                    <span class="number">3854</span>
-                    <p class="word">Clients</p>
+                <div class="box">
+                    <span class="number">748</span>
+                    <div class="text">Appartments</div>
                 </div>
-                <div class="infor">
-                    <span class="number">24</span>
-                    <p class="word">Employess</p>
+                <div class="box">
+                    <span class="number">748</span>
+                    <div class="text">Appartments</div>
                 </div>
-                <div class="infor">
-                    <span class="number">14</span>
-                    <p class="word">Awards</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- More Then -->
-    <section class="more-then">
-        <div class="container">
-            <h2 class="title">More Then 500+ Appartments For Rent</h2>
-            <div class="appartments">
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box1.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box2.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box3.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box4.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box5.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desc-appartment">
-                    <img href="#" src="./img/box6.jpg" alt="img" class="desc">
-                    <p>Random Street, Apt B453, New York</p>
-                    <span>$3,500</span>
-                    <div class="icon-box">
-                        <div class="icon">
-                            <img src="./img/icont-box1.png" alt="icon">
-                            <p>2 BA</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icont-box2.png" alt="icon">
-                            <p>2 BD</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="view-all">View All Appartments</a>
-        </div>
-    </section>
-        <!-- How it works ? -->
-    <section class="how-it-work">
-        <div class="container">
-            <div class="how">
-                <h2 class="title"> How it works?</h2>
-                <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. </p>
-                <div class="content">
-                    <div class="content-1">
-                        <div class="top">
-                            <span>01</span>
-                            <p>01 Find Your Location</p>
-                        </div>
-                        <div class="bottom">
-                            <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. </p>
-                            <a href="#">Find Location</a>
-                        </div>
-                    </div>
-                    <div class="content-1">
-                        <div class="top">
-                            <span>02</span>
-                            <p>02 Find Appartment</p>
-                        </div>
-                        <div class="bottom">
-                            <p>n this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. </p>
-                            <a href="#">Find Appartment</a>
-                        </div>
-                    </div>
-                    <div class="content-1">
-                        <div class="top">
-                            <span>03</span>
-                            <p>03 Make Contact</p>
-                        </div>
-                        <div class="bottom">
-                            <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day.  </p>
-                            <a href="#">Make Contact</a>
-                        </div>
-                    </div>
+                <div class="box">
+                    <span class="number">748</span>
+                    <div class="text">Appartments</div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <!-- Services -->
-    <section class="Services">
+    <!-- Appartments -->
+    <section class="appartments">
         <div class="container">
-            <h2 class="title">Services</h2>
-            <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a first agile at the end of the day. </p>
-            <div class="left">
-                <img src="./img/service.jpg" alt="service">
+            <h2 class="title-appart">More Than 500+ </br> Appartments For Rent</h2>
+            <div class="appartment-list">
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box1.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box2.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box3.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box4.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box5.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appartment-list-item">
+                    <div class="appartment-img">
+                        <img src="./img/box6.jpg" alt="" />
+                    </div>
+                    <div class="appartment__bottom">
+                        <h3 class="appartment__bottom-title">
+                            <a href="#">Random Street, Apt B453, New York</a>
+                        </h3>
+                        <div class="appartment__bottom-content">
+                            <span class="price">$3500</span>
+                            <div class="info">
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box1.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                                <div class="info__item">
+                                    <i class="icon">
+                                        <img
+                                            src="./img/icont-box2.png"
+                                            alt="shower-icon"
+                                        />
+                                    </i>
+                                    <span class="text">2 BA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-            <div class="right">
-                <div class="content">
-                    <h3>Renting</h3>
-                    <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
-                </div>
-                <div class="content">
-                    <h3>Selling</h3>
-                    <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
-                </div>
-                <div class="content">
-                    <h3>Building</h3>
-                    <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
-                </div>
+            <div class="appartment__btn">
+                <a href="#" class="btn btn__white">View All Appartments</a>
             </div>
         </div>
     </section>
-    <!-- Meet Our Agents -->
-    <section class="meet-our">
+    <section class="work">
         <div class="container">
-            <h2 class="title">Meet Our Agents</h2>
-            <p>In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. </p>
-            <div class="content">
-                <img href="#" src="./img/meet-1.jpg" alt="meet">
-                <p>Agnet</p>
-                <div class="name">
-                    <p>Mr. Luke Skywalker</p>
-                </div>
-                <div class="icon">
-                    <img src="./img/fb-icon.png" alt="">
-                    <img src="./img/twitter-icon.png" alt="">
-                    <img src="./img/ball-icon.png" alt="">
-                </div>
+            <div class="title__box">
+                <h2 class="title"> How is works? </h2>
+                <p>In this space market-facing, yet UI work flows , or bake it in.</br> Red flag we need a recap by eod,
+                     cob or whatever comes</br> first agile at the end of the day.
+                </p>
             </div>
-            <div class="content">
-                <img href="#" src="./img/meet-2.jpg" alt="meet">
-                <p>Agnet</p>
-                <div class="name">
-                    <p>Mr. Luke Skywalker</p>
+            <div class="work__list">
+                <div class="work__list-box">
+                    <span class="work__number">01</span>
+                    <p class="title-box">
+                      01  Find Your Location
+                    </p>
+                    <p class="des_box">
+                        In this space market-facing, yet UI </br> work flows , or bake it in. Red
+                        flag </br>  we neef the day.
+                    </p>
+                    <a href="#" class="box-bottom">Find Location</a>
                 </div>
-                <div class="icon">
-                    <img src="./img/fb-icon.png" alt="">
-                    <img src="./img/twitter-icon.png" alt="">
-                    <img src="./img/ball-icon.png" alt="">
+                <div class="work__list-box">
+                    <span class="work__number">02</span>
+                    <p class="title-box">
+                      02  Find Appartment
+                    </p>
+                    <p class="des_box">
+                        In this space market-facing, yet UI </br>  work flows , or bake it in. Red
+                        flag </br> we neef the day.
+                    </p>
+                    <a href="#" class="box-bottom">Find Appartment</a>
                 </div>
-            </div>
-            <div class="content">
-                <img href="#" src="./img/meet-3.jpg" alt="meet">
-                <p>Agnet</p>
-                <div class="name">
-                    <p>Mr. Luke Skywalker</p>
-                </div>
-                <div class="icon">
-                    <img src="./img/fb-icon.png" alt="">
-                    <img src="./img/twitter-icon.png" alt="">
-                    <img src="./img/ball-icon.png" alt="">
+                <div class="work__list-box">
+                    <span class="work__number">03</span>
+                    <p class="title-box">
+                      03  Make Contact
+                    </p>
+                    <p class="des_box">
+                        In this space market-facing, yet UI </br>  work flows , or bake it in. Red
+                        flag </br>  we neef the day.
+                    </p>
+                    <a href="#" class="box-bottom">Make Contact</a>
                 </div>
             </div>
         </div>
