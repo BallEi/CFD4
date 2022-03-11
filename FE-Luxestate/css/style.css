@@ -234,16 +234,9 @@ header {
 	margin-top: 140px;
 }
 .des-company {
-	width: 50%;
-	margin-right: 230px;
+	max-width: 570px;
 }
-.box-company{
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	align-items: center;
-	justify-content: space-between;
-}
+
 .title-cpn {
 	font-family: Mon-bold;
 	font-size: 40px;
@@ -257,21 +250,28 @@ header {
 .ct {
 	padding-top: 46px;
 }
-.box-company .box {
-	margin-bottom: 10px;
+.company .cpn__box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.company .cpn__box .cpn__box-box {
 	width: 200px;
-	height: 200px;
-	background: #f6f5f4;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f6f5f4;
+  margin: 0 0 30px 30px;
 }
-.number {
-	font-family: Mon-semibold;
-	font-size: 40px;
-	color: #ffcc01;
-	margin: 50px;
-	
+.company .cpn__box .cpn__box-box .box-number {
+  font-family: Mon-semibold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffcc01;
 }
-.box-company .box .text {
-	margin: 50px  ;
+.company .cpn__box .cpn__box-box .box-title {
 	font-family: Mon-semibold;
 	font-size: 14px;
 	color: #1f373d;
